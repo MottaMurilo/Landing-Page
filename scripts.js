@@ -6,13 +6,25 @@ function validar(){
   var password = form.password.value;
 
   if(firstname == ""){
-    alert('fodase');
+    alert('Preencha os campos em vazio!');
     
     return false;
   }
 
   if(lastname == ""){
-    alert('fodase');
+    alert('Preencha os campos em vazio!');
+    
+    return false;
+  }
+
+  if(password == ""){
+    alert('Preencha os campos em vazio!');
+    
+    return false;
+  }
+
+  if(email == ""){
+    alert('Preencha os campos em vazio!');
     
     return false;
   }
